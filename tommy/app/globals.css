@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+:root {
+    --background: #b3997f;
+    --foreground: #ffffff;
+    --accent: #ffffff;
+    --border: #ffffff;
+    --link: #ffffff;
+    --link-hover: #ffffff;
+    --input-bg: #ffffff;
+    --input-border: #ffffff;
+    --input-text: #ffffff;
+    --input-placeholder: #ffffff;
+    --heading-text: #ffffff;
+    --paragraph-text: #ffffff;
+    --button-text: #ffffff;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #b3997f;
+    --foreground: #ffffff;
+    --accent: #ffffff;
+    --border: #ffffff;
+    --link: #ffffff;
+    --link-hover: #ffffff;
+    --input-bg: #ffffff;
+    --input-border: #ffffff;
+    --input-text: #ffffff;
+    --input-placeholder: #ffffff;
+    --heading-text: #ffffff;
+    --paragraph-text: #ffffff;
+    --button-text: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* globals.css or your main CSS file */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
