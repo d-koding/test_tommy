@@ -31,7 +31,7 @@ export default async function Home() {
         
       </div>
 
-      {/* 2. Pass the data to the FeaturedBooks component */}
+      {/* 2. Pass the data to the FeaturedBooks component! */}
       {featuredBooks && featuredBooks.length > 0 && (
         <FeaturedBooks books={featuredBooks} />
       )}
